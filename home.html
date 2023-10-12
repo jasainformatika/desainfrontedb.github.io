@@ -10,27 +10,55 @@
   </head>
 
   <body>
-    <!--Header -->
-    <nav>
-      <div class="navbar">
-        <a href="#" class="logo"><img src="/img/icon.png" alt="Logo" /></a>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#Lessons">Lessons</a></li>
-          <li><a href="#Team">Team</a></li>
-          <li><a href="#Kontak">Kontak</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!-- close Header -->
+    <header>
+        <nav>
+          <div class="navbar">
+            <img class="imglogo" src="/img/icon.png" alt="Logo"/>
+            <div class="option-button">
+                <div class="wrapper">
+                    <div class="option" id="homeBtn">
+                        <input class="input" type="radio" name="btn" value="option1" checked>
+                        <label class="btn">
+                            <span class="span">Home</span>
+                        </label>
+                    </div>
+                    <div class="option" id="contactBtn">
+                        <input class="input" type="radio" name="btn" value="option2">
+                        <label class="btn">
+                            <span class="span">Lessons</span>
+                        </label>
+                    </div>
+                    <div class="option" id="testiBtn">
+                        <input class="input" type="radio" name="btn" value="option3">
+                        <label class="btn">
+                            <span class="span">Teams</span>
+                        </label>
+                    </div>
+                </div>
+          </div>
+        </nav>
+    </header>
 
-    <!-- home -->
-    <!-- close home -->
-    <!-- Lessons -->
-    <!-- close Lessons -->
-    <!-- Team -->
-    <!-- close team -->
-    <!-- Kontak -->
-    <!-- close kontak -->
+    <main>
+
+    </main>
+
+    <footer>
+        
+    </footer>
   </body>
+      <!--SCRIPT OPSI HEADER  -->
+      <script>
+        document.getElementById("homeBtn").addEventListener("click", function () {
+            window.location.href = "#Home";
+        });
+
+        document.getElementById("contactBtn").addEventListener("click", function () {
+            window.location.href = "#Lessons";
+        });
+
+        document.getElementById("testiBtn").addEventListener("click", function () {
+            window.location.href = "#Teams";
+        });
+    </script>
 </html>
