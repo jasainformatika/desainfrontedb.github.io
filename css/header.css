@@ -8,9 +8,12 @@ body {
 }
 
 nav {
+  background-image: linear-gradient(40deg, #8be5d3 , #168781);
   background-color: #219c90; /* Ganti warna latar belakang menjadi #219c90 */
   position: fixed;
   width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .navbar {
