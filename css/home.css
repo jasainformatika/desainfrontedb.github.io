@@ -1,1 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("background.jpg"); /* Ganti dengan URL gambar latar belakang Anda */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+nav {
+  background-color: #219c90; /* Ganti warna latar belakang menjadi #219c90 */
+  position: fixed;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px; /* Atur ukuran logo sesuai kebutuhan Anda */
+  height: auto; /* Biarkan tinggi mengikuti aspek rasio gambar */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: border-bottom 0.3s;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+}
